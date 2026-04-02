@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>teacherinfo</title>
+</head>
+<body>
+    <form>
+        <label for="price">Cijena sata</label>
+        <input type="number" name="price" id="price">
+        <label for="duration">Trajanje sata (min):</label>
+        <input type="number" name="duration" id="duration">
+         <input type="radio" id="online" name="type" value="ONLINE">
+  <label for="online">Online</label><br>
+  <input type="radio" id="offline" name="type" value="OFFLINE">
+  <label for="offline">Offline</label><br>
+  <input type="radio" id="both" name="type" value="BOTH">
+  <label for="both">Oboje</label>
+
+        checkboxes predmet
+        <input type="checkbox" name="subject" id="subject">
+        <label for="about">O meni:
+
+        </label>
+        <input type="textbox" name="about" id="about">
+    </form>
+</body>
+</html>

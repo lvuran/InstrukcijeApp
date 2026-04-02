@@ -1,0 +1,43 @@
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #343a40; 
+  color: white;
+  min-height: 60px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.header-left .header-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.header-left .header-link:hover {
+  color: #f8d210; 
+}
+
+.header-right .logout-btn {
+  background-color: #dc3545; 
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.header-right .logout-btn:hover {
+  background-color: #b02a37; 
+}
+.header-link {
+  margin-right: 1rem; 
+  text-decoration: none; 
+}
